@@ -15,9 +15,9 @@ object Basics extends App{
   // Interpolated string
   val anInterpolatedString = s"The speed of light is $speedOfLight m/s"
 
-  println(aString)
-  println(aComposedString)
-  println(anInterpolatedString)
+  println("A string: " + aString)
+  println("A composed string: " + aComposedString)
+  println("An interpolated string: " + anInterpolatedString)
 
   // Expressions: structures that can be reduced to a value
   val anExpression = 2 + 3
@@ -25,7 +25,7 @@ object Basics extends App{
   // Within Scala if statements are expressions and return a value
   // If expression
   val ifExpression = if (speedOfLight > 50) 20 else 10
-  println(ifExpression)
+  println("If expression: " + ifExpression)
 
   // Chained expression
   val chainedExpression =
@@ -33,7 +33,7 @@ object Basics extends App{
     else if (speedOfLight < 20) 6
     else if (speedOfLight > 100) 10
     else 7
-  println(chainedExpression)
+  println("Chained if expression: " + chainedExpression)
 
   // Code block
   val codeBlock = {
@@ -43,13 +43,13 @@ object Basics extends App{
     aLocalValue + 2
   }
 
-  println(codeBlock)
+  println("Code block: " + codeBlock)
 
   // Define a function with a single line or a code block
   def myFunction(x: Int, y: String): String = {
     x + " " + y
   }
-  println(myFunction(1, "5"))
+  println("My function: " + myFunction(1, "5"))
 
   // Define a factorial function
   def factorial(n: Int): Int =
@@ -57,6 +57,10 @@ object Basics extends App{
     // Recursive, function can be called within itself!
     else n * factorial(n - 1)
 
-  println(factorial(3))
+  println("Factorial function: " + factorial(3))
+
+
+  // Unit type equivalent to void
+  println("Print statement returns the Unit type: " + "Hva betyr de om det?")
 }
 
