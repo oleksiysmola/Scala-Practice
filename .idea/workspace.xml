@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773a590f-fa6d-4c03-831a-271c056bd2e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/smola/basics/Basics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/smola/basics/exercises/SumAllIntegers.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/smola/basics/FirstScalaObject.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/smola/basics/FirstScalaObject.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/basics/FirstScalaObject$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/basics/FirstScalaObject$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/basics/FirstScalaObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/basics/FirstScalaObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/basics/FirstScalaObject.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/basics/FirstScalaObject.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/smola/basics/Basics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/smola/basics/Basics.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/basics/Basics$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/basics/Basics$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/basics/Basics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/basics/Basics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/basics/Basics.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/basics/Basics.tasty" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Basics">
+  <component name="RunManager" selected="Application.SumAllIntegers">
     <configuration name="Basics" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.smola.basics.Basics" />
       <module name="Scala-Practice" />
@@ -75,6 +76,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumAllIntegers" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.smola.basics.exercises.SumAllIntegers" />
+      <module name="Scala-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smola.basics.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Scala-Practice" />
       <option name="allowRunningInParallel" value="false" />
@@ -91,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumAllIntegers" />
         <item itemvalue="Application.Basics" />
         <item itemvalue="Application.FirstScalaObject" />
         <item itemvalue="Scala REPL.Scala REPL" />
