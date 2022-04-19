@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773a590f-fa6d-4c03-831a-271c056bd2e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/smola/generics/Generics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/smola/functionalprogramming/FunctionalProgramming.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Generics">
+  <component name="RunManager" selected="Application.FunctionalProgramming">
     <configuration name="Basics" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.smola.basics.Basics" />
       <module name="Scala-Practice" />
@@ -64,6 +64,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.smola.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionalProgramming" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.smola.functionalprogramming.FunctionalProgramming" />
+      <module name="Scala-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smola.functionalprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,26 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumAllIntegers" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.smola.basics.exercises.SumAllIntegers" />
-      <module name="Scala-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smola.basics.exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FunctionalProgramming" />
         <item itemvalue="Application.Generics" />
         <item itemvalue="Application.Exceptions" />
         <item itemvalue="Application.ObjectOriented" />
         <item itemvalue="Application.Basics" />
-        <item itemvalue="Application.SumAllIntegers" />
       </list>
     </recent_temporary>
   </component>
