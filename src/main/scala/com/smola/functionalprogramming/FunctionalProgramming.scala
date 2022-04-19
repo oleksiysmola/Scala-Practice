@@ -28,4 +28,22 @@ object FunctionalProgramming extends App {
   val doubler: Int => Int = (x: Int) => 2 * x
 
   println("Doubler function: " + doubler(4))
+
+  // Higher-order functions
+  val aMappedList: List[Int] = List(1, 2, 3).map(x => x + 1) // HOF
+  println("New list: " + aMappedList)
+  val aFlatMappedList: List[Int] = List(1, 2, 3).flatMap(x => List(x, x * 2))
+  println("Flat mapped list: " + aFlatMappedList)
+  val aFilteredList: List[Int] = List(1, 2, 3, 4, 5).filter(_ <= 3) // Equivalent to x => x <= 3
+  println("A filtered list: " + aFilteredList)
+  // All pairs between 1,2,3 and letters 'a', 'b', 'c'
+  val allPairs = List(1, 2, 3).flatMap(number => List('a', 'b', 'c').map(letter => s"$number-$letter"))
+  println("All pairs: " + allPairs)
+
+  // For comprehensions
+  val alternativePairs = for {
+    number <- List(1, 3, 3)
+    letter <- List('a', 'b', 'c')
+  } yield s"$number-$letter"
+  println("Alternative pairs: " + allPairs)
 }

@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773a590f-fa6d-4c03-831a-271c056bd2e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/smola/functionalprogramming/FunctionalProgramming.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/smola/functionalprogramming/FunctionalProgramming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/smola/functionalprogramming/FunctionalProgramming.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/FunctionalProgramming$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/FunctionalProgramming$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/FunctionalProgramming.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/FunctionalProgramming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/FunctionalProgramming.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/FunctionalProgramming.tasty" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
