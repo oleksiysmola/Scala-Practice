@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773a590f-fa6d-4c03-831a-271c056bd2e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/smola/exceptions/Exceptions.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/smola/objects/ObjectOriented.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/smola/objects/ObjectOriented.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/objects/ObjectOriented$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/objects/ObjectOriented$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/objects/ObjectOriented$Person$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/objects/ObjectOriented$Person$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/objects/ObjectOriented$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/objects/ObjectOriented$Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/objects/ObjectOriented.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/objects/ObjectOriented.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/objects/ObjectOriented.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/objects/ObjectOriented.tasty" afterDir="false" />
     </list>
@@ -47,13 +49,26 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ObjectOriented">
+  <component name="RunManager" selected="Application.Exceptions">
     <configuration name="Basics" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.smola.basics.Basics" />
       <module name="Scala-Practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.smola.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.smola.exceptions.Exceptions" />
+      <module name="Scala-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smola.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,27 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="Scala-Practice" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="javaOptions" value="-Djline.terminal=NONE" />
-      <option name="myConsoleArgs" value="" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exceptions" />
         <item itemvalue="Application.ObjectOriented" />
         <item itemvalue="Application.Basics" />
         <item itemvalue="Application.SumAllIntegers" />
         <item itemvalue="Application.FirstScalaObject" />
-        <item itemvalue="Scala REPL.Scala REPL" />
       </list>
     </recent_temporary>
   </component>
