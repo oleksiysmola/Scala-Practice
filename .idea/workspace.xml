@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773a590f-fa6d-4c03-831a-271c056bd2e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/smola/patternmatching/PatternMatching.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/smola/functionalprogramming/FunctionalProgramming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/smola/functionalprogramming/FunctionalProgramming.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/FunctionalProgramming$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/FunctionalProgramming$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/FunctionalProgramming.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/FunctionalProgramming.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/FunctionalProgramming.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/FunctionalProgramming.tasty" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +44,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FunctionalProgramming">
-    <configuration name="Basics" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.smola.basics.Basics" />
-      <module name="Scala-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smola.basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PatternMatching">
     <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.smola.exceptions.Exceptions" />
       <module name="Scala-Practice" />
@@ -113,13 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.smola.patternmatching.PatternMatching" />
+      <module name="Scala-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smola.patternmatching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.FunctionalProgramming" />
         <item itemvalue="Application.Generics" />
         <item itemvalue="Application.Exceptions" />
         <item itemvalue="Application.ObjectOriented" />
-        <item itemvalue="Application.Basics" />
       </list>
     </recent_temporary>
   </component>
