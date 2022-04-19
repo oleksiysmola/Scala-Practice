@@ -73,4 +73,26 @@ object ObjectOriented extends App{
   MySingleton.apply(65)
   MySingleton(65) // Equivalent to MySingleton.apply(65) akin to static keyword in Java
   // With apply methods in a class we can invoke the class like a function
+
+  object Animal { // Companion to the Animal class - companion object
+    // Companions access fields and methods from animal class
+    val canLiveForever = false
+
+  }
+
+  val canAnimalsLiveForever = Animal.canLiveForever // Like a static property
+
+  /*
+  Case class - lightweight data structures with some boilerplate
+  Automatically generates the following:
+  - Sensible equals and hashcode
+  - Serialisation
+  - Companion object with apply method
+  - Pattern matching
+  */
+  case class Person(name: String, age: Int)
+
+  // Do not need new keyword!
+  val Phil = Person("Phil", 43)
+  println("This is Phil: " + Phil)
 }
