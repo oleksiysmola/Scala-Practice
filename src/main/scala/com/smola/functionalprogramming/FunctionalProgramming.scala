@@ -82,4 +82,22 @@ object FunctionalProgramming extends App {
   // Removing from sets
   val aRemovedSet = aSet - 3
   println("Reduced set is: " + aRemovedSet)
+
+  // Ranges like a fictitious list of numbers ie doesn't contain every value in that range
+  val aRange = 1 to 1000
+  println("Range of values: " + aRange)
+  // To get in increments of 2
+  val twoByTwo = aRange.map(x => 2 * x).toList
+  println("A list of values separated by 2: " + twoByTwo)
+
+  // Tuples
+  val aTuple = ("Fugl", "Katt", "Hund", "Elg", 3)
+  println("A tuple: " + aTuple)
+
+  // Maps
+  val aPhonebook: Map[String, Int] = Map(
+    ("Saul", 30329955),
+    "Mr White" -> 293921 // Equivalent to ("Mr White", 293921)
+  )
+  println("A map: " + aPhonebook)
 }
