@@ -65,4 +65,21 @@ object FunctionalProgramming extends App {
   println("Sequence: " + aSequence)
   val accessedElement = aSequence(1) // Element at index 1 ie 2 in this case
   print("Index 1 of sequence: " + accessedElement)
+
+  // Vectors: fast Seq implementation
+  val aVector = Vector(2, 0, 1)
+  println("A vector: " + aVector)
+
+  // Sets = no duplicates
+  val aSet = Set(1, 2, 3, 4, 1, 2, 3) // Set(1,2,3,4)
+  println("Set: " + aSet)
+  // The main purpose of sets is to determine whether a particular element is contained within
+  val setHas5 = aSet.contains(5)
+  println("Does the set contain 5: " + setHas5)
+  // Adding to sets
+  val anAddedSet = aSet + 5 // Doesn't necessarily add to the end of the set!
+  println("New set is: " + anAddedSet)
+  // Removing from sets
+  val aRemovedSet = aSet - 3
+  println("Reduced set is: " + aRemovedSet)
 }
