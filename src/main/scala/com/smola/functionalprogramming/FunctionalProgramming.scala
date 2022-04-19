@@ -46,4 +46,23 @@ object FunctionalProgramming extends App {
     letter <- List('a', 'b', 'c')
   } yield s"$number-$letter"
   println("Alternative pairs: " + allPairs)
+
+  // Lists
+  val aList = List(1, 2, 3, 4, 5)
+  // Head returns first element
+  println("Head of list: " + aList.head)
+  // Tail returns the rest of the list
+  println("Tail of the list: " + aList.tail)
+  // Can prepend a list
+  val aPrependedList = 0 :: aList
+  println("Prepended list: " + aPrependedList)
+  // Extended list
+  val anExtendedList = 0 +: aList :+ 6
+  println("Extended list: " + anExtendedList)
+
+  // Sequences
+  val aSequence: Seq[Int] = Seq(1,2,3)
+  println("Sequence: " + aSequence)
+  val accessedElement = aSequence(1) // Element at index 1 ie 2 in this case
+  print("Index 1 of sequence: " + accessedElement)
 }
