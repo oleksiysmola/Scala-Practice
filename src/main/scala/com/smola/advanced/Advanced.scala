@@ -1,5 +1,7 @@
 package com.smola.advanced
 
+import scala.util.{Failure, Success, Try}
+
 object Advanced extends App {
 
   // lazy evaluation - Only evaluates when first used
@@ -21,8 +23,19 @@ object Advanced extends App {
     case Some(string) => s"I have obtained a valid string: $string"
     case None => "I have obtained nothing"
   }
-  // Can use map, flatMap, filter
   println(stringProcessing)
+
+  def methodWhichCanThrowException(): String = throw new RuntimeException
+  val aTry = Try(methodWhichCanThrowException())
+  // a try = "collection" with a value if the code went well or an exception if the code threw one
+
+  val anotherStringProcessing = aTry match {
+    case Success(validValue) => s"We have obtained a valid string: $validValue"
+    case Failure(ex) => s"We have obtained an exception: $ex"
+  }
+
+  println(anotherStringProcessing)
+  // use map, flatMap, filter can be used on both Try and Option
 
 
 }
