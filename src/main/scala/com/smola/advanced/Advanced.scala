@@ -53,6 +53,18 @@ object Advanced extends App {
   // Is composable with map, flatMap and filter
   // monads
 
+  // Implicits
+
+  // 1: Implicit arguments
+  def aMethodWithImplicitArguments(implicit arg: Int) = arg + 1
+  implicit val myImplicitInt: Int = 46
+  println(aMethodWithImplicitArguments)
+  // 2: Implicit conversions
+  implicit class MyInteger(n: Int) {
+    def isEven() = n % 2 == 0
+  }
+  print("Is the 10 even: " + 10.isEven())
+
 
 
 
