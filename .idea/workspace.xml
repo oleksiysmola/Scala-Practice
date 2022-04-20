@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773a590f-fa6d-4c03-831a-271c056bd2e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/smola/patternmatching/PatternMatching.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/smola/advanced/Advanced.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/patternmatching/PatternMatching$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/patternmatching/PatternMatching$Person$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/patternmatching/PatternMatching$Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/patternmatching/PatternMatching.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/patternmatching/PatternMatching.tasty" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +49,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PatternMatching">
+  <component name="RunManager" selected="Application.Advanced">
+    <configuration name="Advanced" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.smola.advanced.Advanced" />
+      <module name="Scala-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smola.advanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.smola.exceptions.Exceptions" />
       <module name="Scala-Practice" />
@@ -84,19 +102,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectOriented" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.smola.objects.ObjectOriented" />
-      <module name="Scala-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smola.objects.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.smola.patternmatching.PatternMatching" />
       <module name="Scala-Practice" />
@@ -112,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Advanced" />
         <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.FunctionalProgramming" />
         <item itemvalue="Application.Generics" />
         <item itemvalue="Application.Exceptions" />
-        <item itemvalue="Application.ObjectOriented" />
       </list>
     </recent_temporary>
   </component>
