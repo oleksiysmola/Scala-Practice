@@ -12,4 +12,13 @@ class SumAllIntegersTest extends AnyFunSuite {
     val expected = 15
     assert(actual == expected)
   }
+  test("Throws exception when argument is less than 1") {
+    // Given
+    val summationLimit = -1
+    // Then
+    assertThrows[IllegalArgumentException] {
+      // When
+      underTest.sumOfIntegers(summationLimit)
+    }
+  }
 }
