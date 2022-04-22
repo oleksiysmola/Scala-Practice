@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773a590f-fa6d-4c03-831a-271c056bd2e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/smola/exceptions/custom/InvalidDimensionsException.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/smola/functionalprogramming/exercises/IdentityMatrixTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/smola/exceptions/exercises/LengthMismatchException.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/smola/exceptions/custom/LengthMismatchException.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/smola/functionalprogramming/exercises/IdentityMatrix.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/smola/functionalprogramming/exercises/IdentityMatrix.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/smola/functionalprogramming/exercises/ScalarProduct.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/smola/functionalprogramming/exercises/ScalarProduct.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/smola/functionalprogramming/exercises/ScalarProductTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/smola/functionalprogramming/exercises/ScalarProductTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/smola/functionalprogramming/exercises/IdentityMatrixTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/smola/functionalprogramming/exercises/IdentityMatrixTest.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

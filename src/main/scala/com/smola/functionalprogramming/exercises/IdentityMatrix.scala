@@ -8,7 +8,7 @@ object IdentityMatrix extends App {
     if (n <= 0) throw new InvalidDimensionsException("Dimensions cannot be less than or equal to 0")
     else {
       // Defines the range for the dimensions of the matrix
-      val aRange = 0 to n
+      val aRange = 0 to n - 1
 
       // Two four comprehension expressions, setting value to 0 unless row and column number are equal
       val matrix = for {
