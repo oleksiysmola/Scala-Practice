@@ -1,4 +1,4 @@
-package com.smola.exceptions.exercises
+package com.smola.exceptions.custom
 
 class LengthMismatchException(message: String) extends Exception(message) {
   def this(message: String, cause: Throwable) = {

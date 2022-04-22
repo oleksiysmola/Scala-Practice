@@ -1,5 +1,5 @@
 package com.smola.functionalprogramming.exercises
-import com.smola.exceptions.exercises.LengthMismatchException
+import com.smola.exceptions.custom.LengthMismatchException
 import org.scalatest.funsuite.AnyFunSuite
 
 class ScalarProductTest extends AnyFunSuite {
