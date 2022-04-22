@@ -1,4 +1,5 @@
 package com.smola.functionalprogramming.exercises
+import com.smola.exceptions.exercises.LengthMismatchException
 import org.scalatest.funsuite.AnyFunSuite
 
 class ScalarProductTest extends AnyFunSuite {
@@ -12,5 +13,16 @@ class ScalarProductTest extends AnyFunSuite {
     // Then
     val expected = -2
     assert(actual == expected)
+  }
+  test("Throws exception when vector dimensions do not match") {
+    // Given
+    val vector1 = Vector(2.0, -1.0)
+    val vector2 = Vector(1.0, 4.0, 5.0)
+    // When
+    val caught = intercept[LengthMismatchException] {
+      underTest.dotProduct(vector1, vector2)
+    }
+    // Then
+    assert(caught.getMessage == "Argument dimensions do not match")
   }
 }
