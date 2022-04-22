@@ -13,7 +13,4 @@ object ScalarProduct extends App {
     } yield x1(index)*x2(index)
     product.sum
   }
-  val x1 = Vector(2.0, 4.0, -5.0)
-  val x2 = Vector(-1.0, 6.0, 8.0)
-  println(dotProduct(x1, x2))
 }
