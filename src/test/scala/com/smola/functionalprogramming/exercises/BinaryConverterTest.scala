@@ -12,4 +12,13 @@ class BinaryConverterTest extends AnyFunSuite {
     val expected = "10"
     assert(actual == expected)
   }
+  test("Can convert number to binary") {
+    // Given
+    val numberToConvert = "5"
+    // When
+    val actual = underTest.ConvertNumberToBinary(numberToConvert)
+    // Then
+    val expected = "101"
+    assert(actual == expected)
+  }
 }
