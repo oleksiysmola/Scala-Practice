@@ -7,7 +7,7 @@ class SnailTest extends AnyFunSuite {
     // Given
     val testGrid = List(List(1, 2, 3), List(4, 5, 6), List(7, 8, 9))
     // When
-    val actual = underTest.snail(testGrid)
+    val actual = underTest.SnailPath(testGrid)
     // Then
     val expected = List(1, 2, 3, 6, 9, 8, 7, 4, 5)
     assert(actual == expected)
