@@ -14,7 +14,7 @@ class BinaryConverterTest extends AnyFunSuite {
   }
   test("Can convert number to binary") {
     // Given
-    val numberToConvert = "5"
+    val numberToConvert = 5
     // When
     val actual = underTest.ConvertNumberToBinary(numberToConvert)
     // Then
