@@ -7,12 +7,9 @@
     <list default="true" id="773a590f-fa6d-4c03-831a-271c056bd2e8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/smola/functionalprogramming/exercises/BinaryConverter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/smola/functionalprogramming/exercises/BinaryConverter.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/smola/functionalprogramming/exercises/BinaryConverterTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/smola/functionalprogramming/exercises/BinaryConverterTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/exercises/BinaryConverter$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/exercises/BinaryConverter$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/exercises/BinaryConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/exercises/BinaryConverter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/exercises/BinaryConverter.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/exercises/BinaryConverter.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/test-classes/com/smola/functionalprogramming/exercises/BinaryConverterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/test-classes/com/smola/functionalprogramming/exercises/BinaryConverterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/test-classes/com/smola/functionalprogramming/exercises/BinaryConverterTest.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/test-classes/com/smola/functionalprogramming/exercises/BinaryConverterTest.tasty" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +39,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="ScalaTest.BinaryConverterTest">
     <configuration name="FunctionalProgramming" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.smola.functionalprogramming.FunctionalProgramming" />

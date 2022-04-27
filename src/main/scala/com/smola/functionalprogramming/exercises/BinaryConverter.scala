@@ -40,6 +40,7 @@ object BinaryConverter {
     // If zero return zero
     if (binaryNumber == "0") "0"
     else {
+      // Use the length of the binary number to determine the range in which it lies
       val binarySize = binaryNumber.length - 1
       val rangeOfPowers = 0 to binarySize
       val groupsOfNumbers = for {
@@ -47,9 +48,11 @@ object BinaryConverter {
       } yield math.pow(2.0, power.toDouble).toInt
       val totalNumbers = groupsOfNumbers.sum
       val rangeOfNumbers = 1 to totalNumbers
-      println(rangeOfNumbers)
+      // Find all binary numbers in the allowed range and map to a list
+      val binaryNumbers = rangeOfNumbers.map(ConvertNumberToBinary(_))
+      // Number will be the index of the given binary number + 1
+      1.+(binaryNumbers.indexOf(binaryNumber)).toString
     }
-    "0"
   }
 
 }
