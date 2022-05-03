@@ -14,3 +14,4 @@ relevant topic packages. Here is the list thus far
 - IdentityMatrix: Write a function which creates an n x n identity matrix, taking n as an argument
 - BinaryConverter: Write a function which converts a given binary number to the number it represents in decimal form (tricky! had to beseech Google for the binary number generator part)
 - Snail: Track the clockwise path of a snail through an n x n grid. More details can be found at https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1/scala
+- RectanglePointCalculator: Count the number of points within a rectangle rotated 45 degrees

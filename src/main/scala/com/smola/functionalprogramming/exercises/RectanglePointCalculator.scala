@@ -49,7 +49,7 @@ object RectanglePointCalculator {
     var pointsInRectangle = 0
 
     // Max length
-    val maxLength = List(a, b).max
+    val maxLength = (List(a, b).max*1.2).toInt
 
     val findPointsInGrid = for {
       x <- -math.ceil((maxLength/2).toDouble).toInt to math.ceil((maxLength/2).toDouble).toInt
