@@ -1,5 +1,7 @@
 package com.smola.basics
 
+import java.time.{LocalDate, LocalTime}
+
 object Basics extends App{
 
   // Defining a value
@@ -62,5 +64,17 @@ object Basics extends App{
 
   // Unit type equivalent to void
   println("Print statement returns the Unit type: " + "Hva betyr de om det?")
+
+  // Local Date
+  val dateNow = LocalDate.now()
+  println(dateNow)
+  val christmasDay = LocalDate.of(2022, 12, 25)
+  println(christmasDay)
+
+  // Local Time
+  val timeNow = LocalTime.now()
+  println(timeNow)
+  val lunchTime = LocalTime.of(12, 0, 0)
+  println(lunchTime)
 }
 

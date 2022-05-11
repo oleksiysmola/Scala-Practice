@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="773a590f-fa6d-4c03-831a-271c056bd2e8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/smola/functionalprogramming/exercises/RectanglePointCalculator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/smola/functionalprogramming/exercises/RectanglePointCalculator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/exercises/RectanglePointCalculator$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/exercises/RectanglePointCalculator$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/exercises/RectanglePointCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/exercises/RectanglePointCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/exercises/RectanglePointCalculator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.2/classes/com/smola/functionalprogramming/exercises/RectanglePointCalculator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/smola/basics/Basics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/smola/basics/Basics.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="ScalaTest.RectanglePointCalculatorTest.Can the return the correct number of points for rectangle with sides of length 6 and 4">
+  <component name="RunManager" selected="Application.Basics">
+    <configuration name="Basics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.smola.basics.Basics" />
+      <module name="Scala-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smola.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinaryConverterTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Scala-Practice" />
       <option name="allowRunningInParallel" value="false" />
@@ -58,20 +68,6 @@
       </option>
       <option name="testKind" value="Class" />
       <option name="testClassPath" value="com.smola.functionalprogramming.exercises.BinaryConverterTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryConverterTest.Can convert number to binary" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="Scala-Practice" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="com.smola.functionalprogramming.exercises.BinaryConverterTest" />
-      <option name="testName" value="Can convert number to binary" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Basics" />
         <item itemvalue="ScalaTest.RectanglePointCalculatorTest.Can the return the correct number of points for rectangle with sides of length 6 and 4" />
         <item itemvalue="ScalaTest.SnailTest.Returns correct path for 3 x 3 grid" />
         <item itemvalue="ScalaTest.TwiceLinearTest.Can return fifth entry from sequence" />
         <item itemvalue="ScalaTest.BinaryConverterTest" />
-        <item itemvalue="ScalaTest.BinaryConverterTest.Can convert number to binary" />
       </list>
     </recent_temporary>
   </component>
